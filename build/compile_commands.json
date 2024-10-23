@@ -1,13 +1,13 @@
 [
 {
   "directory": "C:/Users/91247/Desktop/my_test/hello/build",
-  "command": "C:\\mingw64\\bin\\gcc.exe   -g -std=gnu99 -o CMakeFiles\\myhello.dir\\src\\hello.c.obj -c C:\\Users\\91247\\Desktop\\my_test\\hello\\src\\hello.c",
+  "command": "C:\\mingw64\\bin\\gcc.exe  @CMakeFiles/myhello.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\myhello.dir\\src\\hello.c.obj -c C:\\Users\\91247\\Desktop\\my_test\\hello\\src\\hello.c",
   "file": "C:/Users/91247/Desktop/my_test/hello/src/hello.c",
   "output": "CMakeFiles/myhello.dir/src/hello.c.obj"
 },
 {
   "directory": "C:/Users/91247/Desktop/my_test/hello/build",
-  "command": "C:\\mingw64\\bin\\gcc.exe   -g -std=gnu99 -o CMakeFiles\\myhello.dir\\src\\main.c.obj -c C:\\Users\\91247\\Desktop\\my_test\\hello\\src\\main.c",
+  "command": "C:\\mingw64\\bin\\gcc.exe  @CMakeFiles/myhello.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\myhello.dir\\src\\main.c.obj -c C:\\Users\\91247\\Desktop\\my_test\\hello\\src\\main.c",
   "file": "C:/Users/91247/Desktop/my_test/hello/src/main.c",
   "output": "CMakeFiles/myhello.dir/src/main.c.obj"
 }

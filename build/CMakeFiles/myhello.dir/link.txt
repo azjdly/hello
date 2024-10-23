@@ -1,3 +1,3 @@
 "C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\myhello.dir/objects.a
 C:\mingw64\bin\ar.exe qc CMakeFiles\myhello.dir/objects.a @CMakeFiles\myhello.dir\objects1.rsp
-C:\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\myhello.dir/objects.a -Wl,--no-whole-archive -o myhello.exe -Wl,--out-implib,libmyhello.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\myhello.dir\linkLibs.rsp
+C:\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\myhello.dir/objects.a -Wl,--no-whole-archive -o C:\Users\91247\Desktop\my_test\hello\bin\myhello.exe -Wl,--out-implib,C:\Users\91247\Desktop\my_test\hello\bin\libmyhello.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\myhello.dir\linkLibs.rsp

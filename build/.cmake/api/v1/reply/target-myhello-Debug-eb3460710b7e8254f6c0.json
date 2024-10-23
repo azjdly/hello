@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "myhello.exe"
+			"path" : "C:/Users/91247/Desktop/my_test/hello/bin/myhello.exe"
 		},
 		{
-			"path" : "myhello.pdb"
+			"path" : "C:/Users/91247/Desktop/my_test/hello/bin/myhello.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -14,7 +14,7 @@
 		"commands" : 
 		[
 			"add_executable",
-			"target_link_directories"
+			"target_include_directories"
 		],
 		"files" : 
 		[
@@ -48,6 +48,13 @@
 					"fragment" : "-g -std=gnu99"
 				}
 			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/91247/Desktop/my_test/hello/include"
+				}
+			],
 			"language" : "C",
 			"languageStandard" : 
 			{
@@ -76,11 +83,6 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
-			},
-			{
-				"backtrace" : 2,
-				"fragment" : "-LC:\\Users\\91247\\Desktop\\my_test\\hello\\include",
-				"role" : "libraryPath"
 			},
 			{
 				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
