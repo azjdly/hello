@@ -1,0 +1,3 @@
+C:/Users/91247/Desktop/my_test/hello/build/CMakeFiles/myhello.dir
+C:/Users/91247/Desktop/my_test/hello/build/CMakeFiles/edit_cache.dir
+C:/Users/91247/Desktop/my_test/hello/build/CMakeFiles/rebuild_cache.dir
